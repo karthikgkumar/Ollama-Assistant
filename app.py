@@ -1,8 +1,18 @@
 from langchain_community.llms import Ollama
 import streamlit as st
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+
+os.environ["LANGCHAIN_TRACING_V2"]="true"
+os.environ["LANGCHAIN_PROJECT"]=os.getenv("LANGCHAIN_PROJECT")
+os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
+
+print(os.environ["LANGCHAIN_API_KEY"])
 llm = Ollama(model="phi:latest", base_url="http://ollama-container:11434", verbose=True)
+
 
 def sendPrompt(prompt):
     global llm

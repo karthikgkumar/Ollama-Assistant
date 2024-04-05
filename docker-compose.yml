@@ -7,6 +7,6 @@ services:
     ports:
       - 11434:11434
   streamlit-app:
-    image: karthikgkumar/ollama:0.1
+    image: karthikgkumar/ollama:0.5
     ports:
       - 8501:8501
