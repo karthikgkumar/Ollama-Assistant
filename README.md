@@ -11,7 +11,7 @@ Make sure to have following dependencies listed in your requirements.txt file:
 - streamlit
 - langchain
 - langchain-community
-- python-dotenv
+- python-dot
 - google
 
 ## Installation
