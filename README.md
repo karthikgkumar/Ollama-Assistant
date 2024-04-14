@@ -55,7 +55,7 @@ Couldn't implement because of limitations in webbrowser module of python, tried 
 ![alt text](image-2.png)
 
 RAG training was done in this notebook
-[Colab](https://colab.research.google.com/drive/11A9TldA9dDfRiEIRba1htxnWiPcNsvSo?usp=sharing)
+[Colab](https://colab.research.google.com/drive/1FIE-m-jFVtiXhGiotgAfyamFH5brbKRh?usp=sharing)
 
 ## .env setup
 LANGCHAIN_API_KEY="" <br/>
